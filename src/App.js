@@ -22,27 +22,3 @@ const App = () => {
 };
 
 export default App;
-
-
-
-
-// const App = () => {
-//   return (
-//     <CartProvider>
-//       <Router>
-//         <Header />
-//         <main>
-//           <Routes>
-//             <Route path="/" element={<HomePage />} />
-//             <Route path="/products" element={<ProductListingPage />} />
-//             <Route path="/cart" element={<FullCartPage />} />
-//           </Routes>
-//         </main>
-//         <Footer />
-//       </Router>
-//     </CartProvider>
-//   );
-// };
-
-// export default App;
-
